@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/threeassignment" mode="merge"/>
+    <filter root="/content/threeassignment" mode="merge"/>
+    <filter root="/content/dam/threeassignment" mode="merge"/>
+    <filter root="/content/experience-fragments/threeassignment" mode="merge"/>
+</workspaceFilter>

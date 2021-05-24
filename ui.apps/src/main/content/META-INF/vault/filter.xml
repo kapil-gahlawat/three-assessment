@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/threeassignment/clientlibs"/>
+    <filter root="/apps/threeassignment/components"/>
+    <filter root="/apps/threeassignment/i18n"/>
+</workspaceFilter>

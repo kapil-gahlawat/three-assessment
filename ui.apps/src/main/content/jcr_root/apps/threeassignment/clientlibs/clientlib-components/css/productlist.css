@@ -1,0 +1,133 @@
+.productlist {
+    font-family: NeueHelvetica,sans-serif;
+}
+
+.productlist .header-section {
+    padding: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 24px;
+}
+
+.product-item {
+    display: inline-block;
+    text-align: center;
+}
+
+.product-item .title {
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 215px;
+    margin: auto;
+    height: 2.4em;
+    line-height: 1.2;
+}
+
+.product-item .product-image {
+    padding: 20px;
+}
+
+.owl-carousel .owl-item .product-item .product-image img {
+    height: auto;
+    width: auto;
+}
+
+.productlist .splide .splide__arrows .splide__arrow.splide__arrow--prev,
+.productlist .splide .splide__arrows .splide__arrow.splide__arrow--next {
+    width: 4em;
+    height: 4em;
+}
+
+.productlist .splide .splide__arrows .splide__arrow.splide__arrow--prev svg,
+.productlist .splide .splide__arrows .splide__arrow.splide__arrow--next svg {
+    fill: #e08;
+}
+
+.productlist .splide .splide__pagination .splide__pagination__page.is-active {
+    background: #e08;
+}
+
+.productlist .header {
+    margin-bottom: 2rem;
+    font-size: 5.625rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.productlist .subheader {
+    font-size: 3.75rem;
+    margin-bottom: 1rem;
+    line-height: 1;
+    margin-left: 50px;
+    font-weight: 300;
+}
+
+.owl-carousel {
+    text-align: center;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    border: 0;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover,
+.owl-carousel .owl-nav .owl-prev .arrow:hover,
+.owl-carousel .owl-nav .owl-next .arrow:hover {
+    background: #fff;
+}
+
+.owl-prev {
+    left: 1%;
+    box-shadow: -10px 20px 40px -10px #babbca
+}
+
+.owl-next {
+    right: 1%;
+    box-shadow: 10px 20px 40px -10px #babbca
+}
+
+.owl-theme .owl-nav {
+    position: absolute;
+    top: 33%;
+    left: 0;
+    right: 0;
+
+}
+
+.owl-prev {
+    left: 2%
+}
+
+.owl-next {
+    right: 2%
+}
+
+.text-three.magenta {
+    color: #e08!important;
+}
+
+.owl-carousel .owl-nav button .arrow {
+  border: solid #e08;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.owl-carousel .owl-nav button .arrow.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.owl-carousel .owl-nav button .arrow.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}

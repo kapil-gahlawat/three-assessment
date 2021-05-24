@@ -1,0 +1,25 @@
+<sly data-sly-use.mobileDeviceModel="com.three.assignment.core.models.MobileDeviceModel"></sly>
+<div class="productlist" style="background-color: ${properties.backgroundColor @ context='styleToken'}">
+    <div class="header-section">
+        <div class="header" style="color: ${properties.headerTextColor @ context='styleToken'}">${properties.header}</div>
+        <div class="subheader" style="color: ${properties.subheaderTextColor @ context='styleToken'}">${properties.subheader}</div>
+    </div>
+
+    <div class="owl-carousel owl-theme products" data-sly-list="${mobileDeviceModel.mobileDeviceOfferingList}"
+         data-carousel-loop="${mobileDeviceModel.loop @ context='styleToken'}" data-carousel-nav="${mobileDeviceModel.nav @ context='styleToken'}"
+         data-carousel-dots="${mobileDeviceModel.dots @ context='styleToken'}" data-carousel-slideby="${properties.slideBy || 'page' @ context='styleToken'}">
+
+        <div class="item product-item">
+            <div class="title" style="color: ${properties.productNameTextColor @ context='styleToken'}">${item.deviceName}</div>
+            <div class="product-image">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="${mobileDeviceModel.domainName}${item.deviceImage}.transform/transformer-product-carousel-width-203-height-388/image.png">
+                    <source media="(max-width: 991px)" srcset="${mobileDeviceModel.domainName}${item.deviceImage}.transform/transformer-product-carousel-width-160-height-305/image.png">
+                    <img src="${mobileDeviceModel.domainName}${item.deviceImage}" alt="${item.deviceName}" class="img-responsive">
+                </picture>
+            </div>
+        </div>
+
+    </div>
+
+</div>
